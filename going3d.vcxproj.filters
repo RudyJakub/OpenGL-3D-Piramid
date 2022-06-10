@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki Źródłowe">
+      <UniqueIdentifier>{b658cd05-b9b4-471b-9660-c7f2778a5357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki Zasobów">
+      <UniqueIdentifier>{9d16cbec-edad-4443-905d-e7a5e8adb8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki Zasobów\Shaders">
+      <UniqueIdentifier>{d264a3a2-ff83-4ba9-9b4d-ea760caa0936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki Nagłówkowe">
+      <UniqueIdentifier>{9b2f5da4-5a35-4cda-b0c9-a71bf71c788c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderClass.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Pliki Źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VAO.h">
+      <Filter>Pliki Nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Pliki Nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Pliki Nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderClass.h">
+      <Filter>Pliki Nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Pliki Nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Pliki Nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.vert">
+      <Filter>Pliki Zasobów\Shaders</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>Pliki Zasobów\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
